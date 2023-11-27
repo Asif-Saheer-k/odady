@@ -364,7 +364,7 @@ function toggleTheme() {
         setTheme("theme-dark");
         document.getElementById("slider").checked = false;
     } else {
-        setTheme("theme-light");
+        setTheme("theme-dark");
         document.getElementById("slider").checked = true;
     }
 })();
